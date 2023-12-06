@@ -7,7 +7,7 @@
       var yearValue = document.getElementById('year').value;
 
       // Construct the new URL with the query string
-      var newUrl = 'https://localost:8080/?name=' + encodeURIComponent(nameValue) + '&year=' + encodeURIComponent(yearValue);
+      var newUrl = 'https://localhost:8080?name=' + encodeURIComponent(nameValue) + '&year=' + encodeURIComponent(yearValue);
 
       // Update the h3 element with the new URL
       document.getElementById('url').textContent = newUrl;
